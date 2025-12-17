@@ -1,0 +1,19 @@
+@"
+__pycache__/
+*.log
+*.pdf
+*.docx
+*.exe
+*.zip
+
+ml_temp_images/
+temp_images/
+.venv/
+.env
+.vscode/
+.idea/
+
+dist/
+build/
+*.egg-info/
+"@ | Out-File .gitignore -Encoding utf8
